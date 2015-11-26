@@ -1,0 +1,7 @@
+#! /usr/bin/env node
+
+var PriceWatcher = require('../lib/price_watcher');
+
+// Initializes application
+var app = new PriceWatcher(process.argv);
+// app.run();
